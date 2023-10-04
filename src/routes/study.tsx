@@ -1,6 +1,6 @@
 import { createSignal } from "solid-js";
 import { FlashCard } from "../components/FlashCard";
-import { cards } from "../cards";
+import { cards } from "../decks";
 
 export default function() {
   const [cardIndex, setCardIndex] = createSignal(0);
